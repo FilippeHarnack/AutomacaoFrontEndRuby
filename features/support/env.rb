@@ -1,0 +1,6 @@
+require 'cucumber'
+require 'capybara/cucumber'
+require 'capybara/rspec'
+require 'site_prism'
+require 'rspec'
+require 'rspec/expectations'
