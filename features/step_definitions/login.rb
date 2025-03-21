@@ -4,6 +4,7 @@ Dado('que loguei') do
   end
   
   Quando('eu logar') do
+   
   end
   
   Entao('logaremos') do
