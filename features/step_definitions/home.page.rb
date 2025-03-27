@@ -1,5 +1,5 @@
 class HomePage < SitePrism::Page
-  
+  set_url ''
   element :userName, :xpath, "//div[@class='profile-rail-card_actor-link t-16 t-black t-bold']"
   element :naveBarHome, :id, "ember19"
   element :myIcon, :id, "ember31"
