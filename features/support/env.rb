@@ -4,7 +4,7 @@ require 'capybara/rspec'
 require 'site_prism'
 require 'rspec'
 require 'rspec/expectations'
-require 'selenium-webdriver'
+include RSpec::Matchers
 
 
 Capybara.configure do |config|
