@@ -7,5 +7,5 @@ Deseja logar no site
 
 Cenario: Login com sucesso
 Dado que o usuario acessa a pagina de login
-Quando ele digitaras credenciais validas    
+Quando ele digitar as credenciais validas
 Entao deve acessar o site com sucesso

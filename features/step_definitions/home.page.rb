@@ -1,4 +1,4 @@
-class HomePage < SitePrism: :HomePage 
+class HomePage < SitePrism::Page
   
   element :userName, :xpath, "//div[@class='profile-rail-card_actor-link t-16 t-black t-bold']"
   element :naveBarHome, :id, "ember19"
