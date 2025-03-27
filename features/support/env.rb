@@ -4,9 +4,8 @@ require 'capybara/rspec'
 require 'site_prism'
 require 'rspec'
 require 'rspec/expectations'
-require 'selenium-webdriver'
 include RSpec::Matchers
-
+require 'selenium-webdriver'
 
 Capybara.register_driver :selenium_chrome do |app|
   options = Selenium::WebDriver::Chrome::Options.new
